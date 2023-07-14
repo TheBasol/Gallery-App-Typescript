@@ -1,0 +1,60 @@
+.icon{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.not_icon{
+    width: 54px;
+    height: 54px;
+}
+
+.not_results_icon{
+    background: url('https://api.iconify.design/emojione/sad-but-relieved-face.svg?width=1000&height=1000') no-repeat center center / contain;
+}
+
+.download_icon{
+    background: url('https://api.iconify.design/ep/download.svg?color=white') no-repeat center center / contain;
+}
+
+.download_icon_black{
+    background: url('https://api.iconify.design/ep/download.svg?color=black') no-repeat center center / contain;
+}
+
+.favs_icon{
+    background: url('https://api.iconify.design/bi/heart.svg?color=white') no-repeat center center / contain;
+}
+
+.favs_icon_red{
+    background: url('https://api.iconify.design/bi/heart.svg?color=red') no-repeat center center / contain;
+}
+
+.favs_icon_full_read{
+    background: url('https://api.iconify.design/zondicons/heart.svg?color=red') no-repeat center center / contain;
+}
+
+.search_icon{
+    background: url('https://api.iconify.design/carbon/search.svg') no-repeat center center / contain;
+}
+
+.close_icon{
+    background: url('https://api.iconify.design/fa-regular/window-close.svg') no-repeat center center / contain;
+}
+
+.trash_icon{
+    background: url('https://api.iconify.design/fa-solid/trash.svg') no-repeat center center / contain;
+}
+
+@media (min-width: 600px) {
+
+    .icon{
+        width: 24px;
+        height: 24px; 
+    }
+
+    .not_icon{
+        width: 84px;
+        height: 84px; 
+    }
+
+}
